@@ -1,5 +1,8 @@
 Package.describe({
-  summary: "DB less realtime communication for meteor"
+  summary: "DB less realtime communication for meteor",
+  version:"0.2.0",
+  name:"lepozepo:streams",
+  git:"https://github.com/Lepozepo/meteor-streams"
 });
 
 Package.on_use(function (api, where) {
