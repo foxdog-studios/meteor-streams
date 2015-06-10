@@ -1,6 +1,6 @@
 Package.describe({
   summary: "DB less realtime communication for meteor",
-  version:"0.2.0",
+  version:"0.2.1",
   name:"fds:streams",
   git:"https://github.com/Lepozepo/meteor-streams"
 });
