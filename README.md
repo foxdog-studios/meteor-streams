@@ -2,4 +2,11 @@
 
 ### DB less realtime communication for meteor
 
-## THIS IS A TEMPORARY PACKAGE FORKED FROM [ARUNODA](http://arunoda.github.io/meteor-streams/) TO WORK WITH THE CLOUDINARY PACKAGE
+Forked from [lepozepo's version](https://github.com/Lepozepo/meteor-streams).
+
+Added ability to specify connection in options on client, e.g,
+
+    var connection = DDP.connection('http://some-different-meteor-server')
+
+    stream = new Meteor.Stream('streamName', {connection: connection});
+
